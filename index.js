@@ -4,6 +4,9 @@ const bodyParser = require('body-parser')
 const crypto = require('crypto')
 const cors = require('cors')
 
+const API_KEY = Y_mxPUvuQwGARB1_hO3yUw
+const API_SECRET = U7d5h0Y4l85acOpKFeARwnKtCf86eDoD35L3
+
 const app = express()
 const port = process.env.PORT || 4000
 
